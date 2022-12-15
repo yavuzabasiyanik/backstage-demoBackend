@@ -16,12 +16,8 @@ spec:
       "/users":
         get:
           summary: "Get a list of users"
-          parameters:
-            - name: "page"
-              in: "query"
-              description: "The page number to retrieve"
-              required: false
-              type: "integer"
+          tags: users
           responses:
             "200":
               description: "A list of users"
+        post
