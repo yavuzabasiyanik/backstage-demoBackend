@@ -16,6 +16,8 @@ spec:
       "/users":
         get:
           summary: "Get a list of users"
+          tags:
+            - users
           responses:
             "200":
               description: "A list of users"
