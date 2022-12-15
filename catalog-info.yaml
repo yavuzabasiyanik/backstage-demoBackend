@@ -7,20 +7,21 @@ spec:
   type: service
   owner: yavuzabasiyanik
   lifecycle: experimental
-  definition: "    swagger: \"3.0.4\"\n" +
-        "    info:\n" +
-        "      title: \"My API\"\n" +
-        "      version: \"1.0.0\"\n" +
-        "    paths:\n" +
-        "      \"/users\":\n" +
-        "        get:\n" +
-        "          summary: \"Get a list of users\"\n" +
-        "          parameters:\n" +
-        "            - name: \"page\"\n" +
-        "              in: \"query\"\n" +
-        "              description: \"The page number to retrieve\"\n" +
-        "              required: false\n" +
-        "              type: \"integer\"\n" +
-        "          responses:\n" +
-        "            \"200\":\n" +
-        "              description: \"A list of users\""
+  definition: |
+    swagger: "3.0.4"
+    info:
+      title: "My API"
+      version: "1.0.0"
+    paths:
+      "/users":
+        get:
+          summary: "Get a list of users"
+          parameters:
+            - name: "page"
+              in: "query"
+              description: "The page number to retrieve"
+              required: false
+              type: "integer"
+          responses:
+            "200":
+              description: "A list of users"
