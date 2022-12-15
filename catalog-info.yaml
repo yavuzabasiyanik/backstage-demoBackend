@@ -8,7 +8,7 @@ spec:
   owner: yavuzabasiyanik
   lifecycle: experimental
   definition: |
-    swagger: "3.0.4"
+    openapi: "3.0.0"
     info:
       title: "My API"
       version: "1.0.0"
