@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-api
+  description: Demo API
+spec:
+  type: service
+  owner: yavuzabasiyanik
+  lifecycle: experimental
