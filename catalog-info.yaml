@@ -4,11 +4,11 @@ metadata:
   name: demo-api
   description: Demo API
 spec:
-  type: swagger
+  type: openapi
   owner: yavuzabasiyanik
   lifecycle: experimental
   definition: |
-    swagger: "3.0.4"
+    openapi: "3.0.4"
     info:
       title: "My API"
       version: "1.0.0"
