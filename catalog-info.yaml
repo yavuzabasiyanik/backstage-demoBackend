@@ -62,4 +62,20 @@ spec:
               description: The request was invalid
             '409':
               description: The request could not be completed due to a conflict with the current state of the resource
-
+      "/cards/{cardId}":
+        delete:
+          summary: Delete a card
+          description: Deletes the card with the specified CARD_ID.
+          parameters:
+            - name: cardId
+              in: path
+              required: true
+              schema:
+                type: integer
+                minimum: 1
+            responses:
+              '204':
+                description: The card was deleted successfully
+              '404':
+                description: The specified card was not found
+      
