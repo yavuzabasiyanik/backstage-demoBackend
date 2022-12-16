@@ -73,9 +73,9 @@ spec:
               schema:
                 type: integer
                 minimum: 1
-            responses:
-              '204':
-                description: The card was deleted successfully
-              '404':
-                description: The specified card was not found
+          responses:
+            '204':
+              description: The card was deleted succesffsully
+            '404':
+              description: The specified card was not found
       
