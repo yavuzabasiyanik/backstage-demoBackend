@@ -65,6 +65,8 @@ spec:
       "/cards/{cardId}":
         delete:
           summary: Delete a card
+          tags:
+            - cards
           description: Deletes the card with the specified CARD_ID.
           parameters:
             - name: cardId
