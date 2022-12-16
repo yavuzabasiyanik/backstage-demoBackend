@@ -5,8 +5,9 @@ metadata:
   description: Demo API
 spec:
   type: openapi
-  owner: yavuzabasiyanik
+  owner: team-a
   lifecycle: experimental
+  apiConsumedBy: [react-backstage-demo]
   definition: |
     openapi: "3.0.4"
     info:
@@ -80,4 +81,4 @@ spec:
               description: The card was deleted succesffsully
             '404':
               description: The specified card was not found
-  apiConsumedBy: https://github.com/yavuzabasiyanik/backstage-demoFrontend/blob/main/catalog-info.yaml
+  
