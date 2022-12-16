@@ -80,4 +80,4 @@ spec:
               description: The card was deleted succesffsully
             '404':
               description: The specified card was not found
-  apiConsumedBy: ['https://github.com/yavuzabasiyanik/backstage-demoFrontend/blob/main/catalog-info.yaml']
+  apiConsumedBy: https://github.com/yavuzabasiyanik/backstage-demoFrontend/blob/main/catalog-info.yaml
