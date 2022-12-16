@@ -23,6 +23,8 @@ spec:
               description: "A list of cards"
         post:
           summary: "Post card"
+          tags:
+            - cards
           definition: | 
             Creates a card, takes card holder name and score. 
           requestBody:
@@ -43,7 +45,7 @@ spec:
             '201':
               description: The card was created successfully
               content:
-                application/json
+                application/json:
                   schema:
                     type: object
                     properties:
