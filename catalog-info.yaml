@@ -3,6 +3,9 @@ kind: API
 metadata:
   name: demo-api
   description: Demo API
+  annotations:
+    github.com/project-slug: value
+
 spec:
   type: openapi
   owner: team-a
